@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>About Me</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+{% load static %}
+<link rel="stylesheet" href='static/admin/css/homestyle.css'>
+<script src='static/admin/js/homejs.js'></script>
+
+<body class="hero-anime">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <!-- Navbar-->
+    <header class="header">
+        <nav style="background-color: black;" class="navbar navbar-expand-lg navbar-light shadow-sm bg-light fixed-top">
+            <div class="container">
+                <span style="color: black;" class="ml-3 font-weight-bold">Aditya Girigoudar</span>
+                </a> <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse"
+                    data-target="#navbar4">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbar4">
+                    <ul class="navbar-nav mr-auto pl-lg-4">
+                        <li class="nav-item px-lg-2 active"> <a class="nav-link" href="/"> <span
+                                    class="d-inline-block d-lg-none icon-width"><i
+                                        class="fas fa-home"></i></span>Home</a> </li>
+                        <li class="nav-item px-lg-2"> <a class="nav-link" href="aboutme"><span
+                                    class="d-inline-block d-lg-none icon-width"><i class="fas fa-spa"></i></span>About
+                                Me</a> </li>
+                        <!-- <li class="nav-item px-lg-2"> <a class="nav-link" href="#"><span class="d-inline-block d-lg-none icon-width"><i class="far fa-user"></i></i></span>Works</a> </li> -->
+
+                        <li class="nav-item px-lg-2 dropdown d-menu">
+                            <a class="nav-link dropdown-toggle" href="works" id="dropdown01" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false"><span
+                                    class="d-inline-block d-lg-none icon-width"><i
+                                        class="far fa-caret-square-down"></i></span>Work
+                                <svg id="arrow" xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="6 9 12 15 18 9"></polyline>
+                                </svg>
+                            </a>
+                            <div class="dropdown-menu shadow-sm sm-menu" aria-labelledby="dropdown01">
+                                <a class="dropdown-item" href="personalprojects">Personal Projects</a>
+                                <a class="dropdown-item" href="collegeprojects">Academic Projects</a>
+                                <a class="dropdown-item" href="achievements">Achievements</a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item px-lg-2"> <a class="nav-link" href="contact"><span
+                                    class="d-inline-block d-lg-none icon-width"><i
+                                        class="far fa-envelope"></i></span>Contact</a> </li>
+                        <li class="nav-item px-lg-2"> <a class="nav-link"
+                                href="https://drive.google.com/file/d/1PrhbKyWvyxNKW1IQwZU0C1IETGbmVQUz/view?usp=sharing" target="_blank"><span
+                                    class="d-inline-block d-lg-none icon-width"><i
+                                        class="far fa-envelope"></i></span>Resume</a> </li>
+                    </ul>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="py-15 text-center text-black bg-white">
+            <div class="container py-5">
+                <div class="row py-2">
+                    <div class="mx-auto col-lg-10">
+                        <img style="margin-top: 5%;" src="static/img/personalprojects.gif" alt="About Me GIF">
+                        <h1 class="display-4 mb-4 ">Personal Projects</h1>
+                        <p class="lead mb-4">
+                            <h3>Attendance Manager for MS-Teams:</h3>
+                            <p>A simple application that helps organisers to monitor the attendance.</p>
+                            <h3>Gokano Automator:</h3>
+                            Gokano automation to collect Daily Points/VP Points.<br><br>
+                            For more information about these projects, check my <a target="_blank" href="https://github.com/adityagirigoudar">GitHub</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>

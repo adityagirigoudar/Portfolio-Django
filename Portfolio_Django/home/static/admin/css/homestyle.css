@@ -1,0 +1,46 @@
+body{
+    font-family: JetBrains Mono Medium;
+    src: url(JetBrainsMono-Medium.ttf);
+}
+.dropdown-toggle::after {
+    display: none;
+  }
+.text-decoration-none{
+  text-decoration: none!important;
+}
+/* Font Awesome Icons have variable width. Added fixed width to fix that.*/
+.icon-width { width: 2rem;}
+
+img {
+    text-align: center;
+    height: 18rem;
+    width: 20rem;
+    border-radius: 50%;
+    margin-bottom: 2%;
+    /* border: 2px solid black; */
+}
+@keyframes example {
+    10%   {content: "Hello"}
+    20%  {content: "ನಮಸ್ತೆ";}
+    30%  {content: "नमस्ते"}
+    40%  {content: "Bonjour"}
+    50%  {content: "Konnichiwa"}
+    60%  {content: "Sawasdee"}
+    70%  {content: "Hola"}
+    80%  {content: "Marhaba"}
+    90%  {content: "Guten tag"}
+    100%  {content: "Yasou"}
+  }
+#Animation
+{
+    animation-name: example;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+#Animation::after
+{
+    content: "Hello";
+    animation-name: example;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
